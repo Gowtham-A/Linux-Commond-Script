@@ -1,15 +1,13 @@
 #!/bin/bash
 
-##############
-#
-#SHELL SCRIPT COMMOND                                                                                                                               #                                                                                                                                                   ##############                                                                                                                                      
-set -X # IS a debuging mood
+# this script output the node health
 
-df -h #This is disk space cmmond
+set -x #debug mode
 
-free -g #this is memory aviable commond
+df -h #commond is disk space
 
-nproc #This is how may cpu in machine showing commond
+free -g #commond is sowing memory
 
+nproc #commond is CPU
 
-
+#rm -rf command is delete the directory 
