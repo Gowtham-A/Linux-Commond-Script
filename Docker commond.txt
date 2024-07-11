@@ -1,0 +1,17 @@
+1)sudo docker system prune= This commond is non-working container will be deleted
+2)sudo docker stats = This Commond is checking the container ID CPU mem usage/limite
+3)docker search application = This commond is how may user using this application
+4)sudo docker pull (application)= This commond is download the application 
+5)sudo docker images= This commond is how may images you have using in repository
+4)sudo docker system df=This commond is how may system total size utralisation using method
+5)sudo docker run -itd --name (any name given) (application)= This commond is 
+6)sudo docker ps =This commond is how may container running status
+7)sudo docker ps-a=This commond is how may container running status & end application also showing.
+8)sudo docker exec -itd name /bin/bash= this commond is showing how to file locate in save location
+9)sudo docker system events=
+10)sudo docker rm (name)=This commond is delete the container
+11)sudo docker rm -f=This commond is force stop the container and delete the container
+12)sudo docker logs= this commond is showing logs on cointainer
+13)sudo docker top (name)=This commond is what are the process running in this application
+14)sudo docker pull (application):latest=This commond is which version you want to mention the latest side that version will be download
+15)
