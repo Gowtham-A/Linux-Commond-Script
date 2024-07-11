@@ -14,4 +14,4 @@
 12)sudo docker logs= this commond is showing logs on cointainer
 13)sudo docker top (name)=This commond is what are the process running in this application
 14)sudo docker pull (application):latest=This commond is which version you want to mention the latest side that version will be download
-15)
+15)sudo docker 
