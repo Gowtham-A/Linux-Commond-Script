@@ -14,4 +14,13 @@
 12)sudo docker logs= this commond is showing logs on cointainer
 13)sudo docker top (name)=This commond is what are the process running in this application
 14)sudo docker pull (application):latest=This commond is which version you want to mention the latest side that version will be download
-15)sudo docker 
+15)sudo docker inspect (application) =This commond is showing container configuration & you also see the port number
+16)sudo docker history (application) = this commond is sowing all history
+17)sudo docker save (container id) >(application name)-bkp.tar =This file will save local repository save to tar file.
+17)sudo docker load -l (Application)=This commond is load file will be unpace to download the image and exctract.
+18)sudo docker rmi (Application)= this commond is delete the images.
+19)sudo docker rmi$(sudo docker images -a -q)=This commond is delete all images files.
+20)sudo docker commit (container id) tag:version=this commond what our changes in our container it will be saved. 
+21)sudo docker login
+22)sudo docker tag (Application) gowthammaddy/(Application)
+23)sudo docker pull gowthammaddy/(Application)
