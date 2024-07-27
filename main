@@ -2,3 +2,4 @@ docker pull nginx
 docker run -itd -p 33:80 --name (new) (image id)
 docker exec -it new bash
 root@6a755ddc8bb5:/usr/share/nginx#
+v
